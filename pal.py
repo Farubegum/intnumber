@@ -1,0 +1,11 @@
+sam=int(input(""))
+temp=sam
+rev=0
+while(sam>0):
+	dig=sam%10
+	rev=rev*10+dig
+	sam=sam//10
+if(temp==rev):
+	print("yes")
+else:
+	print("no")
