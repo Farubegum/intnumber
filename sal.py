@@ -1,0 +1,11 @@
+san=int(input())
+temp=san
+rev=0
+while(san>0):
+    dig=san%10
+    rev=rev*10+dig
+    san=san//10
+if(temp==rev):
+    print("yes")
+else:
+    print("no")
