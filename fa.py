@@ -1,0 +1,10 @@
+sam=input('')
+sam=int(sam)
+if(sam<=20):
+    fact=1
+    while(sam>0):
+        fact=fact*sam
+        sam=sam-1
+    print(fact)
+else:
+    print("INVALID")
